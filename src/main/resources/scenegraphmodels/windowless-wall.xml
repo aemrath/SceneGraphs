@@ -1,0 +1,33 @@
+<scene>
+    <group name="windowless-wall">
+        <transform>
+            <transform name="top-unit">
+                <set>
+                    <translate>0 0 -1</translate>
+                </set>
+                <group name="top-unit" from="scenegraphmodels/wall-unit.xml">
+                </group>
+            </transform>
+        </transform>
+
+        <transform>
+            <transform name="middle-unit">
+                <set>
+                </set>
+                <group name="middle-unit" from="scenegraphmodels/wall-unit.xml">
+                </group>
+            </transform>
+        </transform>
+
+        <transform>
+            <transform name="bottom-unit">
+                <set>
+                    <translate>0 0 1</translate>
+                </set>
+                <group name="bottom-unit" from="scenegraphmodels/wall-unit.xml">
+                </group>
+            </transform>
+        </transform>
+
+    </group>
+</scene>

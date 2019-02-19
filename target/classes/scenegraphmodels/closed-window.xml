@@ -1,0 +1,33 @@
+<scene>
+    <group name="closed-window">
+        <transform>
+            <transform name="left-unit">
+                <set>
+                    <translate>-1 0 0</translate>
+                </set>
+                <group name="left-unit" from="scenegraphmodels/windowless-wall.xml">
+                </group>
+            </transform>
+        </transform>
+
+        <transform>
+            <transform name="middle-unit">
+                <set>
+                </set>
+                <group name="middle-unit" from="scenegraphmodels/closed-window-wall.xml">
+                </group>
+            </transform>
+        </transform>
+
+        <transform>
+            <transform name="right-unit">
+                <set>
+                    <translate>1 0 0</translate>
+                </set>
+                <group name="right-unit" from="scenegraphmodels/windowless-wall.xml">
+                </group>
+            </transform>
+        </transform>
+
+    </group>
+</scene>

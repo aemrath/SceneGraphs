@@ -1,0 +1,33 @@
+<scene>
+    <group name="wall">
+        <transform>
+            <transform name="top-unit">
+                <set>
+                    <translate>0 0 -3</translate>
+                </set>
+                <group name="top-unit" from="scenegraphmodels/floor.xml">
+                </group>
+            </transform>
+        </transform>
+
+        <transform>
+            <transform name="middle-unit">
+                <set>
+                </set>
+                <group name="middle-unit" from="scenegraphmodels/closed-window-floor.xml">
+                </group>
+            </transform>
+        </transform>
+
+        <transform>
+            <transform name="bottom-unit">
+                <set>
+                    <translate>0 0 3</translate>
+                </set>
+                <group name="bottom-unit" from="scenegraphmodels/floor.xml">
+                </group>
+            </transform>
+        </transform>
+
+    </group>
+</scene>

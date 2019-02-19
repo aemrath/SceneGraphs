@@ -1,0 +1,39 @@
+<scene>
+    <instance name="box" path="models/box"></instance>
+    <group name="window-wall">
+        <transform>
+            <transform name="top-unit">
+                <set>
+                    <translate>0 0 -1</translate>
+                </set>
+                <group name="top-unit" from="scenegraphmodels/wall-unit.xml">
+                </group>
+            </transform>
+        </transform>
+
+        <transform>
+            <transform name="sill">
+                <set>
+                    <translate>0 1 .51</translate>
+                    <scale>1 2 .18</scale>
+                </set>
+                <object instanceof="box">
+                    <material>
+                        <color>.1 .1 .1</color>
+                    </material>
+                </object>
+            </transform>
+        </transform>
+
+        <transform>
+            <transform name="bottom-unit">
+                <set>
+                    <translate>0 0 1</translate>
+                </set>
+                <group name="bottom-unit" from="scenegraphmodels/wall-unit.xml">
+                </group>
+            </transform>
+        </transform>
+
+    </group>
+</scene>

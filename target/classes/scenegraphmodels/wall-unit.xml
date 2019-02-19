@@ -1,0 +1,12 @@
+<scene>
+    <instance name="box" path="models/box"></instance>
+    <transform>
+        <set>
+        </set>
+        <object instanceof="box">
+            <material>
+                <color>1 0 0</color>
+            </material>
+        </object>
+    </transform>
+</scene>

@@ -1,0 +1,32 @@
+<scene>
+    <group name="floor">
+        <transform>
+            <transform name="left-unit">
+                <set>
+                    <translate>-3 0 0</translate>
+                </set>
+                <group name="left-unit" from="scenegraphmodels/window.xml">
+                </group>
+            </transform>
+        </transform>
+
+        <transform>
+            <transform name="middle-unit">
+                <set>
+                </set>
+                <group name="middle-unit" from="scenegraphmodels/window.xml">
+                </group>
+            </transform>
+        </transform>
+
+        <transform>
+            <transform name="right-unit">
+                <set>
+                    <translate>3 0 0</translate>
+                </set>
+                <group name="right-unit" from="scenegraphmodels/window.xml">
+                </group>
+            </transform>
+        </transform>
+    </group>
+</scene>
